@@ -1,13 +1,14 @@
-import './App.css'
+import "./App.css";
+import './index.css'
+import { Nav, Header } from "./components";
 
 function App() {
-  
-
   return (
     <>
-      DUPSKO
+      <Nav />
+      <Header />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
