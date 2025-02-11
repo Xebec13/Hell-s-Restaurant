@@ -1,14 +1,14 @@
 import "./App.css";
-import './index.css'
-import { Nav, Header } from "./components";
+import "./index.css";
+import { Nav, Header, Button } from "./components";
 
-function App() {
-  return (
-    <>
+const App = () => (
+  <>
+    <div className="header-gradient-bg">
       <Nav />
-      <Header />
-    </>
-  );
-}
-
+      <Header/>
+    </div>
+    
+  </>
+);
 export default App;

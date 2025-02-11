@@ -1,0 +1,56 @@
+button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* For Line */
+  border: 2px solid;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.main-button::after,
+.second-button::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  position: relative;
+}
+
+.main-button::after {
+  background-color: var(--button-main-color);
+}
+
+.second-button::after {
+  background-color: var(--button-second-color);
+}
+
+.main-button,
+.second-button {
+  box-shadow: 0 0 5px var(--button-main-color);
+}
+
+.main-button {
+  border-color: var(--button-main-color);
+}
+
+.main-button p {
+  color: var(--button-main-color);
+}
+
+.second-button {
+  background-color: var(--button-main-color);
+  border: none;
+}
+
+.second-button p {
+  color: var(--button-second-color);
+}
+
+.main-button p,
+.second-button p {
+  text-transform: uppercase;
+  font-family: var(--font-family-cormorant);
+  font-weight: 600;
+}

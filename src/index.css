@@ -1,14 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Cormorant+SC:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes:regular);
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 20px;
+}
+
+:root {
+  --font-family-cormorant: "Cormorant SC", sans-serif;
+  --font-family-great-vibes: "Great Vibes", sans-serif;
+  --font-family-cinzel: "Cinzel", sans-serif;
+  --font-family-dm-sans: "DM Sans", sans-serif;
+  --font-main-color: #f3d382;
+  --font-second-color: #d9d9d9;
+
+  --button-main-color: #f5be32;
+  --button-second-color: #000;
 }
 
 a {
-  color: black;
+  color: unset;
   text-decoration: none;
+  text-wrap: nowrap;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
+}
+
+img {
+  display: block;
 }

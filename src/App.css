@@ -1,0 +1,42 @@
+.header-gradient-bg {
+  background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.6),
+      rgba(30, 30, 30, 0.8),
+      rgba(30, 30, 30, 1)
+    ),
+    url("../src/assets/luxurybg1.png") 60% / cover no-repeat;
+  width: 100%;
+}
+
+.section-padding {
+  padding: 4rem 6rem;
+}
+
+.section-margin {
+  margin: 4rem 6rem;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--font-main-color);
+}
+
+p,
+span,
+a {
+  color: var(--font-second-color);
+}
+
+ul li {
+  font-family: var(--font-family-cormorant);
+}
+
+span {
+  font-family: var(--font-family-great-vibes);
+}
+
+p {
+  font-family: var(--font-family-dm-sans);
+}

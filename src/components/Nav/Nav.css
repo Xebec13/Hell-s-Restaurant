@@ -1,3 +1,25 @@
-.navigation-bar {
-    display: flex;
+nav.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 6rem;
+}
+nav.navigation-bar > * {
+  flex-basis: 33%;
+}
+
+.logo img {
+  width: 82px;
+  height: 82px;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.reservation-button button{
+  float: right;
 }
