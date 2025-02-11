@@ -1,6 +1,6 @@
 import "./App.css";
 import "./index.css";
-import { Nav, Header, Button } from "./components";
+import { Nav, Header, Specials } from "./components";
 
 const App = () => (
   <>
@@ -8,6 +8,7 @@ const App = () => (
       <Nav />
       <Header/>
     </div>
+    <Specials/>
     
   </>
 );

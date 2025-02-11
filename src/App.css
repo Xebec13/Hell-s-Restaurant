@@ -1,12 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
 .header-gradient-bg {
   background: radial-gradient(
-      circle,
-      rgba(0, 0, 0, 0.6),
-      rgba(30, 30, 30, 0.8),
-      rgba(30, 30, 30, 1)
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(30, 30, 30, 1) 80%,
+      rgba(30, 30, 30, 1) 100%
     ),
-    url("../src/assets/luxurybg1.png") 60% / cover no-repeat;
+    url("../src/assets/luxurybg1.png") 40% 80% / cover no-repeat;
   width: 100%;
+  overflow: hidden;
 }
 
 .section-padding {
