@@ -1,6 +1,8 @@
 import "./App.css";
 import "./index.css";
-import { Nav, Header, Specials } from "./components";
+import { Nav, Header, Specials, Divider, Offer } from "./components";
+
+import divider1 from '../src/assets/image-divider1.png'
 
 const App = () => (
   <>
@@ -9,7 +11,8 @@ const App = () => (
       <Header/>
     </div>
     <Specials/>
-    
+    <Divider imageSrc={divider1} altText="Divider Image" />
+    <Offer />
   </>
 );
 export default App;

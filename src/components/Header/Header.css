@@ -7,14 +7,15 @@ header > * {
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: var(--font-size-massive);
   text-transform: uppercase;
 }
 
 header span {
-  font-size: 1.2rem;
+  letter-spacing: .5rem;
+  font-size: var(--font-size-xlarge);
 }
 
 header p {
-  font-size: 1rem;
+  font-size: var(--font-size-large);
 }

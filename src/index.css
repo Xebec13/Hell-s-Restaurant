@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
-
 :root {
   --font-family-cormorant: "Cormorant SC", sans-serif;
   --font-family-great-vibes: "Great Vibes", sans-serif;
@@ -13,9 +12,11 @@
   --font-second-color: #d9d9d9;
 
   --background-color: #1e1e1e;
+  --card-color: #2e2e2e;
 
   --button-main-color: #f5be32;
   --button-second-color: #000;
+
 }
 
 a {

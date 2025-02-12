@@ -6,8 +6,8 @@ button {
   gap: 0.5rem; /* For Line */
   border: 2px solid;
   background-color: transparent;
-  padding: 10px;
-  font-size: 20px;
+  padding: 0.625rem;
+  font-size: var(--font-size-large);
 }
 
 .main-button::after,
@@ -15,7 +15,6 @@ button {
   content: "";
   width: 40px;
   height: 2px;
-  position: relative;
 }
 
 .main-button::after {
@@ -35,6 +34,13 @@ button {
   border-color: var(--button-main-color);
 }
 
+.main-button p,
+.second-button p {
+  text-transform: uppercase;
+  font-family: var(--font-family-cormorant);
+  font-weight: 600;
+}
+
 .main-button p {
   color: var(--button-main-color);
 }
@@ -46,11 +52,4 @@ button {
 
 .second-button p {
   color: var(--button-second-color);
-}
-
-.main-button p,
-.second-button p {
-  text-transform: uppercase;
-  font-family: var(--font-family-cormorant);
-  font-weight: 600;
 }
