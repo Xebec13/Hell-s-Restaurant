@@ -2,20 +2,21 @@ header {
   text-align: center;
 }
 
-header > * {
+.header-info > * {
   margin-bottom: 35px;
+  white-space: pre-wrap;
 }
 
-header h1 {
+.header-info h1 {
   font-size: var(--font-size-massive);
   text-transform: uppercase;
 }
 
-header span {
-  letter-spacing: .5rem;
+.header-info span {
+  letter-spacing: 0.5rem;
   font-size: var(--font-size-xlarge);
 }
 
-header p {
+.header-info p {
   font-size: var(--font-size-large);
 }
