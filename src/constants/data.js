@@ -45,5 +45,28 @@ const restaurantMainOffer = [
     },
 ]
 
-const data = { restaurantHeader, restaurantSpecialInfo, restaurantSpecialMenu, restaurantMainOffer };
+
+const restaurantMainMenu = [
+    {
+        description: "Dragon Sushi",
+        info: 'Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.',
+        price: '50$',
+        imgSrc: images.sushiMenu1,
+    },
+    {
+        description: "Creamy Sushi",
+        info: 'Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.',
+        price: '50$',
+        imgSrc: images.sushiMenu2,
+    },
+    {
+        description: "Roll Salmon Sushi",
+        info: 'Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.',
+        price: '50$',
+        imgSrc: images.sushiMenu3,
+    },
+]
+
+
+const data = { restaurantHeader, restaurantSpecialInfo, restaurantSpecialMenu, restaurantMainOffer, restaurantMainMenu };
 export default data

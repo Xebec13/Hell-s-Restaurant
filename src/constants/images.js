@@ -6,6 +6,9 @@ import imageDivider1 from '../assets/image-divider1.png'
 import sushi1 from '../assets/sushi1.png'
 import sushi2 from '../assets/sushi2.png'
 import sushi3 from '../assets/sushi3.png'
+import sushiMenu1 from '../assets/dragon-sushi.png'
+import sushiMenu2 from '../assets/creamy-sushi.png'
+import sushiMenu3 from '../assets/roll-salmon-sushi.png'
 
 const images = {
     logo,
@@ -14,6 +17,9 @@ const images = {
     sushi1,
     sushi2,
     sushi3,
+    sushiMenu1,
+    sushiMenu2,
+    sushiMenu3,
 }
 
 export default images
