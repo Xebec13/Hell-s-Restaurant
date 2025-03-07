@@ -1,18 +1,26 @@
 import "./App.css";
 import "./index.css";
-import { Nav, Header, Specials, Divider, Offer } from "./components";
+import {
+  Nav,
+  Header,
+  Specials,
+  Divider,
+  Offer,
+  Reservation,
+} from "./components";
 
-import divider1 from '../src/assets/image-divider1.png'
+import divider1 from "../src/assets/image-divider1.png";
 
 const App = () => (
   <>
     <div className="header-gradient-bg">
       <Nav />
-      <Header/>
+      <Header />
     </div>
-    <Specials/>
+    <Specials />
     <Divider imageSrc={divider1} altText="Divider Image" />
     <Offer />
+    <Reservation />
   </>
 );
 export default App;

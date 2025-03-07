@@ -23,20 +23,22 @@ const Offer = () => (
       <Button className="third-button" text="Wine" />
       <Button className="third-button" text="Appetizer" />
     </div>
-    
+
     <div className="offer-main-menu">
-    {data.restaurantMainMenu.map(({description,info,price,imgSrc}, index) => (
-      <div key={index} className="offer-menu">
-        <div className="menu-image">
-          <img src={imgSrc} alt="sushi" />
-        </div>
-        <div className="menu-info">
-          <h3>{description}</h3>
-          <p>{info}</p>
-          <span>{price}</span>
-        </div>
-      </div>
-    ))}
+      {data.restaurantMainMenu.map(
+        ({ description, info, price, imgSrc }, index) => (
+          <div key={index} className="offer-menu">
+            <div className="menu-image">
+              <img src={imgSrc} alt="sushi" />
+            </div>
+            <div className="menu-info">
+              <h3>{description}</h3>
+              <p>{info}</p>
+              <span>{price}</span>
+            </div>
+          </div>
+        )
+      )}
     </div>
   </section>
 );

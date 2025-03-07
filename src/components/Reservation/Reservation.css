@@ -1,0 +1,78 @@
+.reservation-info {
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.reservation-info > * {
+  margin-bottom: 1.5rem;
+}
+
+.reservation-info span {
+  font-size: var(--font-size-base);
+  letter-spacing: 0.3rem;
+}
+
+.reservation-info h2 {
+  font-size: var(--font-size-xxxlarge);
+}
+
+.reservation-info p {
+  font-size: var(--font-size-large);
+}
+
+.event-info {
+  margin-top: 5vh;
+}
+
+.reservation-event:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.reservation-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.event-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.event-image {
+  width: 893px;
+  height: 500px;
+}
+
+.event-image img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.event-text h3 {
+  font-size: var(--font-size-xlarge);
+}
+
+.event-text p {
+  font-size: var(--font-size-large);
+}
+
+.event-text span {
+  font-size: var(--font-size-xxlarge);
+  font-weight: 600;
+  color: var(--font-main-color);
+}
+
+.event-text div {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.reservation-event:nth-child(even) .event-text div {
+  flex-direction: row-reverse;
+}

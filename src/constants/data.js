@@ -67,6 +67,38 @@ const restaurantMainMenu = [
     },
 ]
 
+const reservationEventInfo = [
+    {
+        description: "Dining Events",
+        info: 'We provide dining event for your special day\nwith your important people',
+        span: 'Choose your event',
 
-const data = { restaurantHeader, restaurantSpecialInfo, restaurantSpecialMenu, restaurantMainOffer, restaurantMainMenu };
+    },
+]
+
+const reservationEvent = [
+    {
+        description: "Fine Dining",
+        info: 'Bottle of Champagne\nFine Sushi Tower For 2+\nDessert',
+        price: '$500',
+        imgSrc: images.dining1,
+    },
+    {
+        description: "Gold Dining",
+        info: 'Bottle of Champagne\nSecret Menu Sushi For 2+\nDessert',
+        price: '$1000',
+        imgSrc: images.dining2,
+    },
+    {
+        description: "Royalty Dinning",
+        info: 'Bottle of Luxury Champagne\nSpecial Menu Sushi For 2+\nRoyal Dessert',
+        price: '$1500',
+        imgSrc: images.dining3,
+    },
+]
+
+
+
+
+const data = { restaurantHeader, restaurantSpecialInfo, restaurantSpecialMenu, restaurantMainOffer, restaurantMainMenu, reservationEventInfo, reservationEvent };
 export default data
